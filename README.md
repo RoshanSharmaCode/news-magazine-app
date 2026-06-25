@@ -32,7 +32,7 @@ git clone https://github.com/yourusername/react-news-portal.git
 2. Navigate to the project folder
 
 ```bash
-cd news-magazine-app
+cd react-news-portal
 ```
 
 3. Install dependencies
@@ -41,7 +41,13 @@ cd news-magazine-app
 npm install
 ```
 
-4. Start the development server
+4. Create a ```.env``` file
+
+```bash
+VITE_API_KEY=your_news_api_key
+```
+
+5. Start the development server
 
 ```bash
 npm run dev
